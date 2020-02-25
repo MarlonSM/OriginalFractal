@@ -13,10 +13,10 @@ public void draw()
 }
 
 
-public void myFractal(float x, float y, float siz)
+public void myFractal(int x, int y, int siz)
 {
 	circle(x,y,siz);
-	if (siz > 7)
+	if (siz > 5)
 	{
 
 		myFractal(x+siz/2,y-siz/2,siz/2);
